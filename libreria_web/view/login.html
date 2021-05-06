@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../css/login.css">
+    <script src="../js/scripts.js"></script>
+    <title>Librería</title>
+</head>
+
+<body>
+    <div class="formulario">
+        <form action="../process/login.proc.php" method="post" onsubmit=" return validar()">
+        <h1>Inicia sesión</h1>
+        <input type="email" name="email" id="email" placeholder="Email" required>
+        <input type="password" name="password" id="password" placeholder="Contraseña" required>
+        <input type="submit" value="Iniciar sesión" id="enviar">
+    </form>
+    </div>
+</body>
+
+</html>
